@@ -59,7 +59,7 @@ python app.py
  - Save the URI: 975049934025.dkr.ecr.us-east-1.amazonaws.com/chatbot
 
 ## Create IAM User
-    # Add policies
+    # Add policies for the user
    - AWSEC2FullAccess
    - AmazonEC2ContainerRegistryFullAccess
 
