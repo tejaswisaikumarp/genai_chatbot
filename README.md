@@ -71,7 +71,7 @@ python app.py
 
    - sudo apt-get update -y
 
-   - sudo apt-get upgrade
+   - sudo apt-get upgrade -y
 
     # Required
 
@@ -88,7 +88,7 @@ python app.py
 
 ## Configure EC2 as self-hosted runner
 - In GitHub, go to 
-     Settings ---> Actions ---> Click on Runner ----> Create a 'self hosted runner' ---> Choose OS ---> Execute commands in your EC2 machine
+     Settings ---> Actions ---> Click on Runner ---> Choose OS ---> Execute commands in your EC2 machine
 
 ## Set-up GitHub secrets
     - PINECONE_API_KEY
