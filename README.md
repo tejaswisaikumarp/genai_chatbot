@@ -62,7 +62,7 @@ python app.py
     # Add policies
    - AWSEC2FullAccess
    - AmazonEC2ContainerRegistryFullAccess
-   
+
 ## Create EC2 instance
 
 ## Open EC2 and install docker in EC2 machine
@@ -88,7 +88,7 @@ python app.py
 
 ## Configure EC2 as self-hosted runner
 - In GitHub, go to 
-     Settings ---> Actions ---> Click on Runner ----> Create a 'self hosted runner' ---> Choose OS ---> Execute commands in your Ec2 machine
+     Settings ---> Actions ---> Click on Runner ----> Create a 'self hosted runner' ---> Choose OS ---> Execute commands in your EC2 machine
 
 ## Set-up GitHub secrets
     - PINECONE_API_KEY
